@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    background-color: lightskyblue;
+}
+
+.foto {
+    flex: 0 0 300px;
+    background-color: lightsalmon;
+}
+
+.foto picture img{
+    width: 300px;
+}
