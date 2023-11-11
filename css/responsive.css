@@ -1,0 +1,26 @@
+
+@media(max-width:690px){
+    
+    .container{
+        min-width: 350px;
+    }
+    .foto, .informacoes {
+        flex: 0 0 350px;
+    }
+
+    .informacoes {
+        gap: 15px;
+    }
+
+    .foto img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    
+    .informacoes {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;
+    }
+}
